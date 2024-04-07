@@ -1,0 +1,9 @@
+@keyframes start {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+.happy {
+    animation: start 0.5s infinite; 
+}
